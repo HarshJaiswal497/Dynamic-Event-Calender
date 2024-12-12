@@ -1,28 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dynamic Event Calendar Application
 
-## Getting Started
+## Enhanced Features
+- Interactive monthly calendar view
+- Drag-and-drop event rescheduling
+- Event color coding
+- Event export (JSON/CSV)
+- Event filtering
+- Persistent storage using localStorage
 
-First, run the development server:
+## Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
 
+## Installation
+1. Clone the repository
+```bash
+git clone https://your-repo-url.git
+cd event-calendar-app
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
+- Month navigation
+- Event creation with:
+  - Time selection
+  - Description
+  - Color categorization
+- Drag and drop between dates
+- Event filtering by keyword
+- Export events as JSON or CSV
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- React.js
+- date-fns for date manipulation
+- react-beautiful-dnd for drag-and-drop
+- shadcn/ui for component styling
+- localStorage for data persistence
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Bonus Features Implemented
+- Drag-and-drop event rescheduling
+- Color coding for events (Work, Personal, Other)
+- Event export functionality (JSON/CSV)
+- Event filtering
 
-## Learn More
+## Future Improvements
+- Add more sophisticated event conflict detection
+- Implement recurring events
+- Add more export options
+- Enhance UI responsiveness
 
-To learn more about Next.js, take a look at the following resources:
+## License
+MIT License
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
